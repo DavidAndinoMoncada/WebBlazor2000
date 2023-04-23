@@ -21,7 +21,7 @@ namespace Blazor.Servicios
             return await usuarioRepositorio.ActualizarAsync(usuario);
         }
 
-        public async Task<bool> EliminarAsync(Usuario usuario)
+        public async Task<bool> EliminarAsync(string usuario)
         {
             return await usuarioRepositorio.EliminarAsync(usuario);
         }

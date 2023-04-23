@@ -13,7 +13,7 @@ namespace Modelos
         [Required(ErrorMessage = "El Rol es Requerido")]
         public string Rol { get; set; }
         public byte[] Foto { get; set; }
-        public DateTime FechaCreación { get; set; }
+        public DateTime FechaCreacion { get; set; }
         public bool EstaActivo { get; set; }
 
         public Usuario()
@@ -21,7 +21,7 @@ namespace Modelos
         }
 
         public Usuario(string codigoUsuario, string nombre, string contraseña, string correo, string rol, byte[] foto,
-            DateTime fechaCreación, bool estaActivo)
+            DateTime fechaCreacion, bool estaActivo)
         {
             CodigoUsuario = codigoUsuario;
             Nombre = nombre;
@@ -29,7 +29,7 @@ namespace Modelos
             Correo = correo;
             Rol = rol;
             Foto = foto;
-            FechaCreación = fechaCreación;
+            FechaCreacion = fechaCreacion;
             EstaActivo = estaActivo;
         }
     }

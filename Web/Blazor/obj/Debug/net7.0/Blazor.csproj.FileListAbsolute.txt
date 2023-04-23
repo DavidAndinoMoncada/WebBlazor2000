@@ -58,3 +58,4 @@ C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Blazor\bin\Debug\net7.0\run
 C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Blazor\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Blazor\bin\Debug\net7.0\Datos.dll
 C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Blazor\bin\Debug\net7.0\Datos.pdb
+C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Blazor\bin\Debug\net7.0\CurrieTechnologies.Razor.SweetAlert2.dll

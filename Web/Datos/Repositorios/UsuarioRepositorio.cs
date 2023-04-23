@@ -27,9 +27,10 @@ namespace Datos.Repositorios
             {
                 using MySqlConnection _conexion = Conexion();
                 await _conexion.OpenAsync();
-                string sql = @"UPDATE usuario SET Nombre = @Nombre, Contraseña = @Contrasña, Correo = @Correo, Rol = @Rol, Foto = @Foto, EstaActivo = @EstaActivo
+                string sql = @"UPDATE usuario SET Nombre = @Nombre, Contraseña = @Contraseña, Correo = @Correo, Rol = @Rol, Foto = @Foto, EstaActivo = @EstaActivo
                              WHERE CodigoUsuario = @CodigoUsuario; ";
                 resultado = Convert.ToBoolean(await _conexion.ExecuteScalarAsync(sql, usuario));
+                resultado = true;
             }
             catch (Exception)
             {
@@ -39,7 +40,7 @@ namespace Datos.Repositorios
 
         }
 
-        public async Task<bool> EliminarAsync(Usuario codigo)
+        public async Task<bool> EliminarAsync(string codigoUsuario)
         {
             bool resultado = false;
 
@@ -48,8 +49,8 @@ namespace Datos.Repositorios
                 using MySqlConnection _conexion = Conexion();
                 await _conexion.OpenAsync();
                 string sql = "DELETE FROM usuario WHERE CodigoUsuario = @CodigoUsuario; ";
-                resultado = Convert.ToBoolean(await _conexion.ExecuteScalarAsync(sql, new { codigo }));
-
+                resultado = Convert.ToBoolean(await _conexion.ExecuteScalarAsync(sql, new { codigoUsuario }));
+                resultado = true;
             }
             catch (Exception)
             {
@@ -110,7 +111,7 @@ namespace Datos.Repositorios
                 string sql = @"INSERT INTO usuario (CodigoUsuario, Nombre, Contraseña, Correo, Rol, Foto, FechaCreacion, EstaActivo)
                              Values (@CodigoUsuario, @Nombre, @Contraseña, @Correo, @Rol, @Foto, @FechaCreacion, @EstaActivo); ";
                 resultado = Convert.ToBoolean(await _conexion.ExecuteScalarAsync(sql, usuario));
-
+                resultado = true;
             }
             catch (Exception)
             {
