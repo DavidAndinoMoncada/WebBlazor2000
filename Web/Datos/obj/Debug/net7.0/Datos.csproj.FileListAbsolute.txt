@@ -1,0 +1,15 @@
+C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Datos\bin\Debug\net7.0\Datos.deps.json
+C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Datos\bin\Debug\net7.0\Datos.dll
+C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Datos\bin\Debug\net7.0\Datos.pdb
+C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Datos\bin\Debug\net7.0\Modelos.dll
+C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Datos\bin\Debug\net7.0\Modelos.pdb
+C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Datos\obj\Debug\net7.0\Datos.csproj.AssemblyReference.cache
+C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Datos\obj\Debug\net7.0\Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Datos\obj\Debug\net7.0\Datos.AssemblyInfoInputs.cache
+C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Datos\obj\Debug\net7.0\Datos.AssemblyInfo.cs
+C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Datos\obj\Debug\net7.0\Datos.csproj.CoreCompileInputs.cache
+C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Datos\obj\Debug\net7.0\Datos.csproj.CopyComplete
+C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Datos\obj\Debug\net7.0\Datos.dll
+C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Datos\obj\Debug\net7.0\refint\Datos.dll
+C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Datos\obj\Debug\net7.0\Datos.pdb
+C:\Users\davca\OneDrive\Documentos\WebBlazor2000\Web\Datos\obj\Debug\net7.0\ref\Datos.dll
