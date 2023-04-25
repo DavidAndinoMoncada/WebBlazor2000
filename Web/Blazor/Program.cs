@@ -15,6 +15,7 @@ builder.Services.AddSingleton(cadena);
 
 builder.Services.AddScoped<ILoginServicios, LoginServicio>();
 builder.Services.AddScoped<IUsuariosServicios, UsuarioServicio>();
+builder.Services.AddScoped<IProductosServicvios, ProductoServicio>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddResponseCompression();
